@@ -7,7 +7,7 @@ a {
 }
 
 /* HERO */
-.hero {
+#hero {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
@@ -100,7 +100,7 @@ h2 {
     margin-block: 50px;
 }
 
-.information p {
+#information p {
     text-align: center;
     color: #525c6b;
 }
