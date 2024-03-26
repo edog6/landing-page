@@ -91,6 +91,9 @@ button {
 }
 
 /* INFORMATION */
+#information {
+    margin-bottom: 150px;
+}
 
 h2 {
     text-align: center;
@@ -142,4 +145,28 @@ h2 {
     font-weight: bold;
     text-align: right;
     margin: 0;
+}
+
+/* CALL TO ACTION */
+
+#call-to-action {
+    background-color: #3882f6;
+    margin: 100px 15%;
+    padding: 70px;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#call-to-action .header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#call-to-action button {
+    border-color: #f9faf8;
+    border-width: 3px;
 }
