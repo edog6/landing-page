@@ -66,7 +66,7 @@ h1 {
     margin: 0;
 }
 
-p {
+.description p {
     font-size: 18px;
     color: #e5e7eb;
     margin: 0;
@@ -88,4 +88,36 @@ button {
     padding: 100px 200px;
     background-color: #525c6b;
     color: #e5e7eb;
+}
+
+/* INFORMATION */
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-block: 50px;
+}
+
+.information p {
+    text-align: center;
+    color: #525c6b;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 5px;
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+
 }
